@@ -69,8 +69,8 @@ function preload() { //Sirve para cargar archivos pesados como imágenes, sonido
   imgBlanca = loadImage('AJUSTADO-05.jpg');
   iimg = loadImage('ABECEDARIO.png');
   iimgblanco = loadImage('ABECEDARIOBLANCOs.png');
-  miFuente = loadFont('Arial');
-  miIFuente = loadFont('Arial');
+  miFuente = loadFont('SF.ttf');
+  miIFuente = loadFont('SF.ttf');
   grafkFont = loadFont('GRAFK-Regular-_3_.ttf');
   vectorImg = loadImage('VECTOR.jpg');
 flecha = loadImage('FLECHA.png');
