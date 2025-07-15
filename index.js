@@ -77,16 +77,16 @@ flecha = loadImage('FLECHA.png');
 // Cargar imágenes numéricas
 //Este bloque carga una lista de imágenes de números (0, 11, 22, 3, etc.) desde la carpeta Numeros/.
 //Cada imagen se carga con loadImage() y se guarda dentro del array images usando .push().
-  images.push(loadImage('/Numeros/0.png'));
-  images.push(loadImage('/Numeros/11.png'));
-  images.push(loadImage('/Numeros/22.png'));
-  images.push(loadImage('/Numeros/3.png'));
-  images.push(loadImage('/Numeros/4.png'));
-  images.push(loadImage('/Numeros/5.png'));
-  images.push(loadImage('/Numeros/6.png'));
-  images.push(loadImage('/Numeros/7.png'));
-  images.push(loadImage('/Numeros/8.png'));
-  images.push(loadImage('/Numeros/99.png'));
+  images.push(loadImage('Numeros/0.png'));
+  images.push(loadImage('Numeros/11.png'));
+  images.push(loadImage('Numeros/22.png'));
+  images.push(loadImage('Numeros/3.png'));
+  images.push(loadImage('Numeros/4.png'));
+  images.push(loadImage('Numeros/5.png'));
+  images.push(loadImage('Numeros/6.png'));
+  images.push(loadImage('Numeros/7.png'));
+  images.push(loadImage('Numeros/8.png'));
+  images.push(loadImage('Numeros/99.png'));
 }
 
 function setup() {
