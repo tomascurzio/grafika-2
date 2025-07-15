@@ -156,6 +156,7 @@ link.style.pointerEvents = 'auto';
 
 
 //flecha
+flecha = loadImage('FLECHA.png');
 image(flecha, 300, 1500, flecha.width, flecha.height);
 
 
