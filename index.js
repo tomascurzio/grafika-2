@@ -60,32 +60,33 @@ let myInput, grafkFont, slider, picker, sizeSlider; //myInput: campo donde el us
 //picker: selector de color para elegir el color del texto.
 //sizeSlider: controla el tamaño del texto.
 
+
 let vectorImg; //Guarda la imagen vectorial que se usa cuando se hace zoom en modo blanco.
 //Permite reemplazar el zoom normal por una imagen especial en ese contexto.
 
-function preload() {//Sirve para cargar archivos pesados como imágenes, sonidos o fuentes antes de que empiece el programa.
-  img = loadImage('AJUSTADO-06.jpg');
-  imgBlanca = loadImage('AJUSTADO-05.jpg');
-  iimg = loadImage('ABECEDARIO.png');
-  iimgblanco = loadImage('ABECEDARIOBLANCOs.png');
-  miFuente = loadFont('SF-Compact-Text-Bold.otf');
-  miIFuente = loadFont('SF-Compact-Display-regular.otf');
-  grafkFont = loadFont('GRAFK-Regular-_3_.ttf');
-  vectorImg = loadImage('VECTOR.jpg');
-flecha = loadImage('FLECHA.png');
+function preload() { //Sirve para cargar archivos pesados como imágenes, sonidos o fuentes antes de que empiece el programa.
+  img = loadImage('/AJUSTADO-06.jpg');
+  imgBlanca = loadImage('/AJUSTADO-05.jpg');
+  iimg = loadImage('/ABECEDARIO.png');
+  iimgblanco = loadImage('/ABECEDARIOBLANCOs.png');
+  miFuente = loadFont('/SF-Compact-Text-Bold.otf');
+  miIFuente = loadFont('/SF-Compact-Display-regular.otf');
+  grafkFont = loadFont('/GRAFK-Regular-_3_.ttf');
+  vectorImg = loadImage('/VECTOR.jpg');
+flecha = loadImage('/FLECHA.png');
 // Cargar imágenes numéricas
 //Este bloque carga una lista de imágenes de números (0, 11, 22, 3, etc.) desde la carpeta Numeros/.
 //Cada imagen se carga con loadImage() y se guarda dentro del array images usando .push().
-  images.push(loadImage('Numeros/0.png'));
-  images.push(loadImage('Numeros/11.png'));
-  images.push(loadImage('Numeros/22.png'));
-  images.push(loadImage('Numeros/3.png'));
-  images.push(loadImage('Numeros/4.png'));
-  images.push(loadImage('Numeros/5.png'));
-  images.push(loadImage('Numeros/6.png'));
-  images.push(loadImage('Numeros/7.png'));
-  images.push(loadImage('Numeros/8.png'));
-  images.push(loadImage('Numeros/99.png'));
+  images.push(loadImage('/Numeros/0.png'));
+  images.push(loadImage('/Numeros/11.png'));
+  images.push(loadImage('/Numeros/22.png'));
+  images.push(loadImage('/Numeros/3.png'));
+  images.push(loadImage('/Numeros/4.png'));
+  images.push(loadImage('/Numeros/5.png'));
+  images.push(loadImage('/Numeros/6.png'));
+  images.push(loadImage('/Numeros/7.png'));
+  images.push(loadImage('/Numeros/8.png'));
+  images.push(loadImage('/Numeros/99.png'));
 }
 
 function setup() {
@@ -155,7 +156,7 @@ link.style.pointerEvents = 'auto';
 
 
 //flecha
-flecha = loadImage('FLECHA.png');
+flecha = loadImage('/FLECHA.png');
 image(flecha, 300, 1500, flecha.width, flecha.height);
 
 
